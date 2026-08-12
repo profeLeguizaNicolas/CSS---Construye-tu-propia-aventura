@@ -1,0 +1,131 @@
+/* === Estilo general del documento === */
+body {
+    
+   margin: 0px;
+    padding: 10px;
+    text-align: justify;
+    background-color: #1a1b1e;   /* Fondo suave y oscuro */
+    color: #e5e5e5;              /* Texto claro */
+
+    font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+
+.inicio{
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.p{
+    background-color: black;
+    padding: 5px;
+    color: goldenrod;
+    border-radius: 10px;
+}
+.uno{
+    margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/imagen2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dos{
+    margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/imagen3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unop{
+    background-color:rgba(18, 13, 13, 0.468);
+    border-radius: 10px;
+    padding: 25px 10px 25px 10px;
+    color: goldenrod;
+    font-size: 30px;
+
+}
+.unop:hover{
+    background-color:goldenrod;
+    border-radius: 10px;
+    color: black;
+}
+.guardias{
+    margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/guardias.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    align-items: center;
+}
+.auto{
+    margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/auto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+   
+    align-items: center;
+}
+.puerta{
+      margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/puerta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desarrollo{
+    font-size: 80px ;
+}
+.huellas{
+      margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/huellas.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dosp{
+    background-color:rgba(18, 13, 13, 0.468);
+    border-radius: 10px;
+    padding: 25px 10px 25px 10px;
+    color: goldenrod;
+    font-size: 25px;
+
+}
+.dosp:hover{
+    background-color:goldenrod;
+    border-radius: 10px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
