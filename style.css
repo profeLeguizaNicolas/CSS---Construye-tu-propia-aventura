@@ -1,37 +1,73 @@
 /* === Estilo general del documento === */
 body {
-    
-   margin: 0px;
+    margin: 0px;
     padding: 10px;
     text-align: justify;
-    background-color: #1a1b1e;   /* Fondo suave y oscuro */
-    color: #e5e5e5;              /* Texto claro */
-
+    background-color: #1a1b1e;
+    color: #e5e5e5;
     font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 18px;
     line-height: 1.75;
 }
 
-.center{
+.estiloInicial {
+    max-height: 50vw;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: justify;
+    background-color: #1a1b1e;
+    color: #e5e5e5;
+    font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.75;
+}
+.verde{
+    color:#6A9955;
+}
+.amarillo{
+    color:yellow;
+}
+.violeta{
+    color: darkmagenta;
+}
+.celeste{
+    color:#9CDCFE;
+}
+.naranja{
+    color:#CE9178;
+}
+.azul{
+
+  color: #569CD6;
+
+}
+.rojo{
+    color: lightcoral;
+}
+
+.center {
     text-align: center;
 }
-.flex{
+
+.flex {
     display: flex;
 }
 
-.inicio{
+.inicio {
     background-color: black;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
 }
-.p{
+
+.p {
     background-color: black;
     padding: 5px;
     color: goldenrod;
     border-radius: 10px;
 }
-.uno{
+
+.uno {
     margin: 5px;
     width: 50vw;
     height: 85vh;
@@ -42,7 +78,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.dos{
+
+.dos {
     margin: 5px;
     width: 50vw;
     height: 85vh;
@@ -53,20 +90,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.unop{
-    background-color:rgba(18, 13, 13, 0.468);
-    border-radius: 10px;
-    padding: 25px 10px 25px 10px;
-    color: goldenrod;
-    font-size: 30px;
 
-}
-.unop:hover{
-    background-color:goldenrod;
-    border-radius: 10px;
-    color: black;
-}
-.guardias{
+.guardias {
     margin: 5px;
     width: 50vw;
     height: 85vh;
@@ -74,10 +99,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-   
+
     align-items: center;
 }
-.auto{
+
+.auto {
     margin: 5px;
     width: 50vw;
     height: 85vh;
@@ -85,11 +111,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-   
+
     align-items: center;
 }
-.puerta{
-      margin: 5px;
+
+.puerta {
+    margin: 5px;
     width: 50vw;
     height: 85vh;
     background-image: url(Imagenes/puerta.jpg);
@@ -99,11 +126,13 @@ body {
     justify-content: center;
     align-items: center;
 }
-.desarrollo{
-    font-size: 80px ;
+
+.desarrollo {
+    font-size: 80px;
 }
-.huellas{
-      margin: 5px;
+
+.huellas {
+    margin: 5px;
     width: 50vw;
     height: 85vh;
     background-image: url(Imagenes/huellas.gif);
@@ -113,19 +142,94 @@ body {
     justify-content: center;
     align-items: center;
 }
-.dosp{
-    background-color:rgba(18, 13, 13, 0.468);
+
+.dosp {
+    background-color: rgba(18, 13, 13, 0.468);
     border-radius: 10px;
     padding: 25px 10px 25px 10px;
     color: goldenrod;
     font-size: 25px;
 
 }
-.dosp:hover{
-    background-color:goldenrod;
+
+.fin {
+    background-color: rgba(18, 13, 13, 0.468);
+    border-radius: 10px;
+    padding: 25px 10px 25px 10px;
+    color: goldenrod;
+    font-size: 25px;
+
+}
+
+.dosp:hover {
+    background-color: goldenrod;
     border-radius: 10px;
     color: black;
 }
-a{
+
+a {
     text-decoration: none;
+}
+
+.interior {
+    margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/interior.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bala {
+    margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/bala.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bala {
+    margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/bala.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alfred {
+    margin: 5px;
+    width: 50vw;
+    height: 85vh;
+    background-image: url(Imagenes/alfred.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.unop {
+    background-color: rgba(18, 13, 13, 0.468);
+    border-radius: 10px;
+    padding: 25px 10px 25px 10px;
+    color: goldenrod;
+    font-size: 30px;
+
+}
+
+.unop:hover {
+    background-color: goldenrod;
+    border-radius: 10px;
+    color: black;
 }
